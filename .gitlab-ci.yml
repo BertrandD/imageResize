@@ -1,0 +1,7 @@
+before_script:
+    - curl https://sh.rustup.rs -sSf | sh
+    - cargo --version
+
+build:
+    script:
+        - cargo test
